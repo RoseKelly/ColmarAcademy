@@ -132,11 +132,21 @@ header a {
   font-size: 1.5rem;
 }
 
+.section-2 {
+  display: flex;
+}
 
+.section-2-row {
+  display: flex;
+}
 
+.six-images {
 
+}
 
-
+.three-images-row {
+  display: flex;
+}
 
 
 
