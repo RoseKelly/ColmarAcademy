@@ -70,17 +70,19 @@ header a {
   color: #9b9b9b;
 }
 
-.main-content {
+/*.main-block {
     display: flex;
     margin: 0 auto 5rem auto;
-/*    padding-top: 3.6rem;*/
+    padding-top: 3.6rem;
     border: 0.3em solid purple;
-}
+}*/
 
 .banner {
   background-color: #d8d8d8;
   width: 100%;
   display: flex;
+  margin: 0 auto;
+
 }
 
 .image-section {
@@ -134,23 +136,103 @@ header a {
 
 .section-2 {
   display: flex;
+  border: 0.2em dashed brown;
 }
 
-.section-2-row {
+.section-row {
   display: flex;
+  justify-content: space-between;
+  border: 0.2em solid orange;
+}
+
+.section-2-left {
+  width: 60%;
+  margin: 2rem 1.5rem;
+  /*border-right: 0.15rem solid #d8d8d8;*/
+/*  border: 0.2em solid yellow;*/
+}
+
+.section-2-right {
+  width: 40%;
+  border-left: 0.15rem solid #d8d8d8;
+}
+
+.section-2-left img {
+  width: 94%;
+}
+
+/*.right-side-img {
+  width: 35%;
+  border: 0.2em dotted pink;
+}*/
+
+.right-side-text {
+  width: 100%;
+  margin: 1rem 1rem 1rem 0rem;
+  border: 0.2em solid gray;
+  padding-top: 0;
+}
+
+.right-side-img img {
+  width: 80%;
+  margin: 1rem;
+}
+
+.section-3 {
+  background-color: #d8d8d8;
+}
+
+.section-3 h1 {
+  padding-top: 2rem;
+  text-align: center;
 }
 
 .six-images {
-
+  width: 90%;
+  border: 0.2em dashed purple;
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 .three-images-row {
   display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 1rem 0;
 }
 
+.course-image {
+  width: 30%;
+  background-color: #ffffff;
+}
 
+.course-image img {
+  width: 100%;
+}
 
+.section-4-left {
+  width: 60%;
+/*  margin: 2rem 1.5rem;*/
+/*  border: 0.2em solid yellow;*/
+}
 
+.section-4-right {
+  width: 40%;
+  border-left: 0.15rem solid #d8d8d8;
+}
 
+.section-4-left video {
+  width: 94%;
+}
+
+.secton-4-2-col {
+  display: flex;
+  border: 0.2em solid cadetblue;
+}
+
+#section-4-header {
+  padding: 1rem;
+  text-align: center;
+}
 
 
