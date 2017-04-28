@@ -181,7 +181,6 @@ header a {
     font-weight: lighter;
     text-align: center;
     letter-spacing: 1px;
-    max-width: 18rem;
     padding: 0.8rem;
 }
 
@@ -321,6 +320,65 @@ footer a {
   padding: 0.5rem;
 }
 
+
+/* Mobile Only Media Queries*/
+
+/* Header Nav */
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-nav img {
+    width: 20%;
+    margin: 1rem 0;
+  }
+
+  header {
+    display: none;
+  }
+
+}
+
+/* Section 1 Banner */
+
+@media only screen and (max-width: 480px) {
+  .banner {
+    display: block;
+  }
+
+  .image-section {
+    width: 100%;
+  }
+
+  .image-section img {
+    padding: 0;
+  }
+
+  .text-section {
+    width: 100%;
+  }
+
+  .text-content {
+    margin: 1rem;
+  }
+
+  .header-text {
+    font-size: 2rem;
+  }
+
+  .button-section {
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+}
 
 
 
